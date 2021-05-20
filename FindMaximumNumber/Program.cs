@@ -9,7 +9,10 @@ namespace FindMaximumNumber
             Console.WriteLine("Finding Maximum Number");
 
             int output = MaximumNumberCheck.MaximumIntegerNumber(11, 22, 33);
-            Console.WriteLine(output);
+            Console.WriteLine("Maximum Integer Number:" +output);
+
+            double doubleoutput = MaximumNumberCheck.MaximumFloatNumber(111.2, 22.45, 78.56);
+            Console.WriteLine("Maximum Double Number:"+doubleoutput);
         }
     }
 }
