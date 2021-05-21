@@ -13,6 +13,9 @@ namespace FindMaximumNumber
 
             double doubleoutput = MaximumNumberCheck.MaximumFloatNumber(111.2, 22.45, 78.56);
             Console.WriteLine("Maximum Double Number:"+doubleoutput);
+
+            string stringoutput = MaximumNumberCheck.MaximumStringNumber("Apple", "Peach", "Banana");
+            Console.WriteLine("Maximum Value String:" +stringoutput);
         }
     }
 }
