@@ -18,11 +18,6 @@ namespace FindMaximumNumber
             return values;
 
         }
-
-        void add(params int[] a)
-        {
-
-        }
         public T MaxValue(params T[] values)
         {
             var sorted_values = Sort(values);
@@ -42,7 +37,6 @@ namespace FindMaximumNumber
             Console.WriteLine("Maximum value is " + max);
         }
     }
-
 
 
 }

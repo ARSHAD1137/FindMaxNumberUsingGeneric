@@ -22,7 +22,6 @@ namespace FindMaximumNumber
             }
             throw new Exception("firstNumber,secondNumber and thirdNumber are same");
         }
-
         public static double MaximumFloatNumber(double firstValue, double secondValue, double thirdValue)
         {
             if (firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) > 0)
@@ -64,7 +63,6 @@ namespace FindMaximumNumber
 
             throw new Exception("firstNumber,secondNumber and thirdNumber are same");
         }
-
     }
 
 }
