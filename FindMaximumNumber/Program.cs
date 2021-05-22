@@ -12,7 +12,7 @@ namespace FindMaximumNumber
             Console.WriteLine("Maximum Integer Number:" +output);
 
             double doubleoutput = MaximumNumberCheck.MaximumFloatNumber(111.2, 22.45, 78.56);
-            Console.WriteLine("Maximum Double Number:"+doubleoutput);
+            Console.WriteLine("Maximum Double Number:" + doubleoutput);
         }
     }
 }
